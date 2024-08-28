@@ -1,0 +1,619 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.azizovav.mireaproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:9:5-70
+15-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:9:22-68
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:10:5-65
+16-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:10:22-62
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:12:5-66
+18-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
+19-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:22-76
+20    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+20-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\azizo\.gradle\caches\transforms-3\6a870acc058b98c4daf752f8769befe6\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+20-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\azizo\.gradle\caches\transforms-3\6a870acc058b98c4daf752f8769befe6\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:5-68
+21-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:22-65
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:25:5-81
+22-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:25:22-78
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:26:5-77
+23-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:26:22-74
+24
+25    <permission
+25-->[androidx.core:core:1.13.0] C:\Users\azizo\.gradle\caches\transforms-3\fe6bb2b84e1cd52aa088d6a3b3493861\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+26        android:name="ru.azizovav.mireaproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.13.0] C:\Users\azizo\.gradle\caches\transforms-3\fe6bb2b84e1cd52aa088d6a3b3493861\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.13.0] C:\Users\azizo\.gradle\caches\transforms-3\fe6bb2b84e1cd52aa088d6a3b3493861\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="ru.azizovav.mireaproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.13.0] C:\Users\azizo\.gradle\caches\transforms-3\fe6bb2b84e1cd52aa088d6a3b3493861\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.13.0] C:\Users\azizo\.gradle\caches\transforms-3\fe6bb2b84e1cd52aa088d6a3b3493861\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+30
+31    <supports-screens
+31-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:9:5-12:40
+32        android:anyDensity="true"
+32-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:10:9-34
+33        android:largeScreens="true"
+33-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:11:9-36
+34        android:normalScreens="true" />
+34-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:12:9-37
+35
+36    <uses-feature
+36-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:14:5-16:36
+37        android:name="android.hardware.location.network"
+37-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:15:9-57
+38        android:required="false" />
+38-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:16:9-33
+39    <uses-feature
+39-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:17:5-19:36
+40        android:name="android.hardware.location.gps"
+40-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:18:9-53
+41        android:required="false" />
+41-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:19:9-33
+42    <uses-feature
+42-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:20:5-22:36
+43        android:name="android.hardware.telephony"
+43-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:21:9-50
+44        android:required="false" />
+44-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:22:9-33
+45    <uses-feature
+45-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:23:5-25:36
+46        android:name="android.hardware.wifi"
+46-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:24:9-45
+47        android:required="false" />
+47-->[org.osmdroid:osmdroid-android:6.1.16] C:\Users\azizo\.gradle\caches\transforms-3\0e12dbb23504ab1a920e062d9cdcae5b\transformed\osmdroid-android-6.1.16\AndroidManifest.xml:25:9-33
+48
+49    <application
+49-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:14:5-50:19
+50        android:allowBackup="true"
+50-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:15:9-35
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.13.0] C:\Users\azizo\.gradle\caches\transforms-3\fe6bb2b84e1cd52aa088d6a3b3493861\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+52        android:dataExtractionRules="@xml/data_extraction_rules"
+52-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:16:9-65
+53        android:debuggable="true"
+54        android:extractNativeLibs="false"
+55        android:fullBackupContent="@xml/backup_rules"
+55-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:17:9-54
+56        android:icon="@mipmap/ic_launcher"
+56-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:18:9-43
+57        android:label="@string/app_name"
+57-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:19:9-41
+58        android:roundIcon="@mipmap/ic_launcher_round"
+58-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:20:9-54
+59        android:supportsRtl="true"
+59-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:21:9-35
+60        android:testOnly="true"
+61        android:theme="@style/Theme.MireaProject" >
+61-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:22:9-50
+62        <provider
+62-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:25:9-33:20
+63            android:name="androidx.core.content.FileProvider"
+63-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:26:13-62
+64            android:authorities="ru.mirea.azizovav.mireaproject.fileprovider2"
+64-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:27:13-79
+65            android:exported="false"
+65-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:28:13-37
+66            android:grantUriPermissions="true" >
+66-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:29:13-47
+67            <meta-data
+67-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:30:13-32:49
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:31:17-67
+69                android:resource="@xml/paths" />
+69-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:32:17-46
+70        </provider>
+71
+72        <activity
+72-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:35:9-44:20
+73            android:name="ru.azizovav.mireaproject.Login"
+73-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:36:13-34
+74            android:exported="true"
+74-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:37:13-36
+75            android:label="@string/app_name"
+75-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:38:13-45
+76            android:theme="@style/Theme.MireaProject.NoActionBar" >
+76-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:39:13-66
+77            <intent-filter>
+77-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:40:13-43:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:41:17-69
+78-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:41:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:42:17-77
+80-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:42:27-74
+81            </intent-filter>
+82        </activity>
+83        <activity
+83-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:45:9-48:69
+84            android:name="ru.azizovav.mireaproject.MainActivity"
+84-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:46:13-41
+85            android:label="@string/app_name"
+85-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:47:13-45
+86            android:theme="@style/Theme.MireaProject.NoActionBar" />
+86-->C:\Users\azizo\Desktop\MireaProject\app\src\main\AndroidManifest.xml:48:13-66
+87        <activity
+87-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
+88            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+88-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
+89            android:excludeFromRecents="true"
+89-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
+90            android:exported="true"
+90-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
+91            android:launchMode="singleTask"
+91-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+92-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
+93            <intent-filter>
+93-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
+94                <action android:name="android.intent.action.VIEW" />
+94-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+94-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+95
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+96-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+97                <category android:name="android.intent.category.BROWSABLE" />
+97-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+97-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+98
+99                <data
+99-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+100                    android:host="firebase.auth"
+100-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+101                    android:path="/"
+101-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+102                    android:scheme="genericidp" />
+102-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
+106            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+106-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
+107            android:excludeFromRecents="true"
+107-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
+108            android:exported="true"
+108-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
+109            android:launchMode="singleTask"
+109-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+110-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
+111            <intent-filter>
+111-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+112-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+114-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+115-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+116
+117                <data
+117-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+118                    android:host="firebase.auth"
+118-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+119                    android:path="/"
+119-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+120                    android:scheme="recaptcha" />
+120-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+121            </intent-filter>
+122        </activity>
+123
+124        <service
+124-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:66:9-72:19
+125            android:name="com.google.firebase.components.ComponentDiscoveryService"
+125-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:67:13-84
+126            android:directBootAware="true"
+126-->[com.google.firebase:firebase-common:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\99b0add3d3d2a4296f0beb9e5a3094a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+127            android:exported="false" >
+127-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:68:13-37
+128            <meta-data
+128-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
+129                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+129-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\azizo\.gradle\caches\transforms-3\fb78438fa1b86a9c6537ac3003d2f705\transformed\firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\c0aa06d14deb97b540adf8e277f135e3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+132                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+132-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\c0aa06d14deb97b540adf8e277f135e3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\c0aa06d14deb97b540adf8e277f135e3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-common:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\99b0add3d3d2a4296f0beb9e5a3094a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+135                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+135-->[com.google.firebase:firebase-common:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\99b0add3d3d2a4296f0beb9e5a3094a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-common:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\99b0add3d3d2a4296f0beb9e5a3094a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+137        </service>
+138        <service
+138-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+139            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+139-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+140            android:enabled="true"
+140-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+141            android:exported="false" >
+141-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+142            <meta-data
+142-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+143                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+143-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+144                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+144-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+145        </service>
+146
+147        <activity
+147-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+148            android:name="androidx.credentials.playservices.HiddenActivity"
+148-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+149            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+149-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+150            android:enabled="true"
+150-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+151            android:exported="false"
+151-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+152            android:fitsSystemWindows="true"
+152-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+153            android:theme="@style/Theme.Hidden" >
+153-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\azizo\.gradle\caches\transforms-3\db40fd8cf774fe22b67def83301674dc\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+154        </activity>
+155        <activity
+155-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\azizo\.gradle\caches\transforms-3\95bfc84e13704166362ab6dd1e9a16b8\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+156            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+156-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\azizo\.gradle\caches\transforms-3\95bfc84e13704166362ab6dd1e9a16b8\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+157            android:excludeFromRecents="true"
+157-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\azizo\.gradle\caches\transforms-3\95bfc84e13704166362ab6dd1e9a16b8\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\azizo\.gradle\caches\transforms-3\95bfc84e13704166362ab6dd1e9a16b8\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\azizo\.gradle\caches\transforms-3\95bfc84e13704166362ab6dd1e9a16b8\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+160        <!--
+161            Service handling Google Sign-In user revocation. For apps that do not integrate with
+162            Google Sign-In, this service will never be started.
+163        -->
+164        <service
+164-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\azizo\.gradle\caches\transforms-3\95bfc84e13704166362ab6dd1e9a16b8\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+165            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+165-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\azizo\.gradle\caches\transforms-3\95bfc84e13704166362ab6dd1e9a16b8\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+166            android:exported="true"
+166-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\azizo\.gradle\caches\transforms-3\95bfc84e13704166362ab6dd1e9a16b8\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+167            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+167-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\azizo\.gradle\caches\transforms-3\95bfc84e13704166362ab6dd1e9a16b8\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+168            android:visibleToInstantApps="true" />
+168-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\azizo\.gradle\caches\transforms-3\95bfc84e13704166362ab6dd1e9a16b8\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+169
+170        <provider
+170-->[com.google.firebase:firebase-common:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\99b0add3d3d2a4296f0beb9e5a3094a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+171            android:name="com.google.firebase.provider.FirebaseInitProvider"
+171-->[com.google.firebase:firebase-common:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\99b0add3d3d2a4296f0beb9e5a3094a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+172            android:authorities="ru.azizovav.mireaproject.firebaseinitprovider"
+172-->[com.google.firebase:firebase-common:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\99b0add3d3d2a4296f0beb9e5a3094a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+173            android:directBootAware="true"
+173-->[com.google.firebase:firebase-common:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\99b0add3d3d2a4296f0beb9e5a3094a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+174            android:exported="false"
+174-->[com.google.firebase:firebase-common:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\99b0add3d3d2a4296f0beb9e5a3094a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+175            android:initOrder="100" />
+175-->[com.google.firebase:firebase-common:21.0.0] C:\Users\azizo\.gradle\caches\transforms-3\99b0add3d3d2a4296f0beb9e5a3094a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+176
+177        <activity
+177-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\azizo\.gradle\caches\transforms-3\81f6de456fcd717d1a6e4701d18a9c85\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+178            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+178-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\azizo\.gradle\caches\transforms-3\81f6de456fcd717d1a6e4701d18a9c85\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\azizo\.gradle\caches\transforms-3\81f6de456fcd717d1a6e4701d18a9c85\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+180-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\azizo\.gradle\caches\transforms-3\81f6de456fcd717d1a6e4701d18a9c85\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+181
+182        <provider
+182-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:29:9-37:20
+183            android:name="androidx.startup.InitializationProvider"
+183-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:30:13-67
+184            android:authorities="ru.azizovav.mireaproject.androidx-startup"
+184-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:31:13-68
+185            android:exported="false" >
+185-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:32:13-37
+186            <meta-data
+186-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:34:13-36:52
+187                android:name="androidx.work.WorkManagerInitializer"
+187-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:35:17-68
+188                android:value="androidx.startup" />
+188-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:36:17-49
+189            <meta-data
+189-->[androidx.emoji2:emoji2:1.2.0] C:\Users\azizo\.gradle\caches\transforms-3\b4e73c66f76d7e4af36e9fde0f2a86a3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+190                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+190-->[androidx.emoji2:emoji2:1.2.0] C:\Users\azizo\.gradle\caches\transforms-3\b4e73c66f76d7e4af36e9fde0f2a86a3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+191                android:value="androidx.startup" />
+191-->[androidx.emoji2:emoji2:1.2.0] C:\Users\azizo\.gradle\caches\transforms-3\b4e73c66f76d7e4af36e9fde0f2a86a3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+192            <meta-data
+192-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\azizo\.gradle\caches\transforms-3\9b3a01e5fed415edb1af7bd48e61995f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+193                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+193-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\azizo\.gradle\caches\transforms-3\9b3a01e5fed415edb1af7bd48e61995f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+194                android:value="androidx.startup" />
+194-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\azizo\.gradle\caches\transforms-3\9b3a01e5fed415edb1af7bd48e61995f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+195            <meta-data
+195-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+196                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+196-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+197                android:value="androidx.startup" />
+197-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+198        </provider>
+199
+200        <service
+200-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:39:9-45:35
+201            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+201-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:40:13-88
+202            android:directBootAware="false"
+202-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:41:13-44
+203            android:enabled="@bool/enable_system_alarm_service_default"
+203-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:42:13-72
+204            android:exported="false" />
+204-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:43:13-37
+205        <service
+205-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:46:9-52:35
+206            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+206-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:47:13-84
+207            android:directBootAware="false"
+207-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:48:13-44
+208            android:enabled="@bool/enable_system_job_service_default"
+208-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:49:13-70
+209            android:exported="true"
+209-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:50:13-36
+210            android:permission="android.permission.BIND_JOB_SERVICE" />
+210-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:51:13-69
+211        <service
+211-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:53:9-59:35
+212            android:name="androidx.work.impl.foreground.SystemForegroundService"
+212-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:54:13-81
+213            android:directBootAware="false"
+213-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:55:13-44
+214            android:enabled="@bool/enable_system_foreground_service_default"
+214-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:56:13-77
+215            android:exported="false" />
+215-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:57:13-37
+216
+217        <receiver
+217-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:61:9-66:35
+218            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+218-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:62:13-88
+219            android:directBootAware="false"
+219-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:63:13-44
+220            android:enabled="true"
+220-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:64:13-35
+221            android:exported="false" />
+221-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:65:13-37
+222        <receiver
+222-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:67:9-77:20
+223            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+223-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:68:13-106
+224            android:directBootAware="false"
+224-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:69:13-44
+225            android:enabled="false"
+225-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:70:13-36
+226            android:exported="false" >
+226-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:71:13-37
+227            <intent-filter>
+227-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:73:13-76:29
+228                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+228-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:17-87
+228-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:25-84
+229                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+229-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:17-90
+229-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:25-87
+230            </intent-filter>
+231        </receiver>
+232        <receiver
+232-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:78:9-88:20
+233            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+233-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:79:13-104
+234            android:directBootAware="false"
+234-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:80:13-44
+235            android:enabled="false"
+235-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:81:13-36
+236            android:exported="false" >
+236-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:82:13-37
+237            <intent-filter>
+237-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:84:13-87:29
+238                <action android:name="android.intent.action.BATTERY_OKAY" />
+238-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:17-77
+238-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:25-74
+239                <action android:name="android.intent.action.BATTERY_LOW" />
+239-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:17-76
+239-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:25-73
+240            </intent-filter>
+241        </receiver>
+242        <receiver
+242-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:89:9-99:20
+243            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+243-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:90:13-104
+244            android:directBootAware="false"
+244-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:91:13-44
+245            android:enabled="false"
+245-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:92:13-36
+246            android:exported="false" >
+246-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:93:13-37
+247            <intent-filter>
+247-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:95:13-98:29
+248                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+248-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:17-83
+248-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:25-80
+249                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+249-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:17-82
+249-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:25-79
+250            </intent-filter>
+251        </receiver>
+252        <receiver
+252-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:100:9-109:20
+253            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+253-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:101:13-103
+254            android:directBootAware="false"
+254-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:102:13-44
+255            android:enabled="false"
+255-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:103:13-36
+256            android:exported="false" >
+256-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:104:13-37
+257            <intent-filter>
+257-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:106:13-108:29
+258                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+258-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:17-79
+258-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:25-76
+259            </intent-filter>
+260        </receiver>
+261        <receiver
+261-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:110:9-121:20
+262            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+262-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:111:13-88
+263            android:directBootAware="false"
+263-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:112:13-44
+264            android:enabled="false"
+264-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:113:13-36
+265            android:exported="false" >
+265-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:114:13-37
+266            <intent-filter>
+266-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:116:13-120:29
+267                <action android:name="android.intent.action.BOOT_COMPLETED" />
+267-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:117:17-79
+267-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:117:25-76
+268                <action android:name="android.intent.action.TIME_SET" />
+268-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:17-73
+268-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:25-70
+269                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+269-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:17-81
+269-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:25-78
+270            </intent-filter>
+271        </receiver>
+272        <receiver
+272-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:122:9-131:20
+273            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+273-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:123:13-99
+274            android:directBootAware="false"
+274-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:124:13-44
+275            android:enabled="@bool/enable_system_alarm_service_default"
+275-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:125:13-72
+276            android:exported="false" >
+276-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:126:13-37
+277            <intent-filter>
+277-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:128:13-130:29
+278                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+278-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:17-98
+278-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:25-95
+279            </intent-filter>
+280        </receiver>
+281        <receiver
+281-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:132:9-142:20
+282            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+282-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:133:13-78
+283            android:directBootAware="false"
+283-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:134:13-44
+284            android:enabled="true"
+284-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:135:13-35
+285            android:exported="true"
+285-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:136:13-36
+286            android:permission="android.permission.DUMP" >
+286-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:137:13-57
+287            <intent-filter>
+287-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:139:13-141:29
+288                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+288-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:17-88
+288-->[androidx.work:work-runtime:2.9.0] C:\Users\azizo\.gradle\caches\transforms-3\6e47c33634a517e256a7dd2ef260b3ab\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:25-85
+289            </intent-filter>
+290        </receiver>
+291
+292        <uses-library
+292-->[androidx.window:window:1.0.0] C:\Users\azizo\.gradle\caches\transforms-3\8ee2ac716ad97db4389453aa245d2254\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+293            android:name="androidx.window.extensions"
+293-->[androidx.window:window:1.0.0] C:\Users\azizo\.gradle\caches\transforms-3\8ee2ac716ad97db4389453aa245d2254\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+294            android:required="false" />
+294-->[androidx.window:window:1.0.0] C:\Users\azizo\.gradle\caches\transforms-3\8ee2ac716ad97db4389453aa245d2254\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+295        <uses-library
+295-->[androidx.window:window:1.0.0] C:\Users\azizo\.gradle\caches\transforms-3\8ee2ac716ad97db4389453aa245d2254\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+296            android:name="androidx.window.sidecar"
+296-->[androidx.window:window:1.0.0] C:\Users\azizo\.gradle\caches\transforms-3\8ee2ac716ad97db4389453aa245d2254\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+297            android:required="false" />
+297-->[androidx.window:window:1.0.0] C:\Users\azizo\.gradle\caches\transforms-3\8ee2ac716ad97db4389453aa245d2254\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+298
+299        <meta-data
+299-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\azizo\.gradle\caches\transforms-3\83c5d19cacf1e22faf4aef8f72d60a3a\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+300            android:name="com.google.android.gms.version"
+300-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\azizo\.gradle\caches\transforms-3\83c5d19cacf1e22faf4aef8f72d60a3a\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+301            android:value="@integer/google_play_services_version" />
+301-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\azizo\.gradle\caches\transforms-3\83c5d19cacf1e22faf4aef8f72d60a3a\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+302
+303        <service
+303-->[androidx.room:room-runtime:2.5.0] C:\Users\azizo\.gradle\caches\transforms-3\b1975876118d64efc89d68f6f9e62012\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+304            android:name="androidx.room.MultiInstanceInvalidationService"
+304-->[androidx.room:room-runtime:2.5.0] C:\Users\azizo\.gradle\caches\transforms-3\b1975876118d64efc89d68f6f9e62012\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+305            android:directBootAware="true"
+305-->[androidx.room:room-runtime:2.5.0] C:\Users\azizo\.gradle\caches\transforms-3\b1975876118d64efc89d68f6f9e62012\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+306            android:exported="false" />
+306-->[androidx.room:room-runtime:2.5.0] C:\Users\azizo\.gradle\caches\transforms-3\b1975876118d64efc89d68f6f9e62012\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+307
+308        <receiver
+308-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+309            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+309-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+310            android:directBootAware="false"
+310-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+311            android:enabled="true"
+311-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+312            android:exported="true"
+312-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+313            android:permission="android.permission.DUMP" >
+313-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+314            <intent-filter>
+314-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+315                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+315-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+315-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+316            </intent-filter>
+317            <intent-filter>
+317-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+318                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+318-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+318-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+319            </intent-filter>
+320            <intent-filter>
+320-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+321                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+321-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+321-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+322            </intent-filter>
+323            <intent-filter>
+323-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+324                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+324-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+324-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\azizo\.gradle\caches\transforms-3\a2913247a2fbcf2373953e210d8d1eb4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+325            </intent-filter>
+326        </receiver>
+327    </application>
+328
+329</manifest>

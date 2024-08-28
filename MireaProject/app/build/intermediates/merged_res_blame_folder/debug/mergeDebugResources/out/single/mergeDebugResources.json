@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable-xhdpi_ic_action_name.png.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable-xhdpi/ic_action_name.png"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_fragment_web_view.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_web_view.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable-hdpi_ic_action_name.png.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable-hdpi/ic_action_name.png"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_login_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/login_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_nav_header_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable_ic_add.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable_ic_menu_gallery.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_fragment_slideshow.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable-mdpi_ic_action_name.png.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable-mdpi/ic_action_name.png"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_fragment_home.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/menu_activity_main_drawer.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable-xxhdpi_ic_action_name.png.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable-xxhdpi/ic_action_name.png"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_fragment_gallery.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_app_bar_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/xml_backup_rules.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_profile_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/profile_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_fragment_background_activity.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_background_activity.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_fragment_data.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_data.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable-anydpi_ic_action_name.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable-anydpi/ic_action_name.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable_ic_menu_camera.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_map_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/map_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable_phone.jpg.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable/phone.jpg"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/xml_data_extraction_rules.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/xml_paths.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/xml/paths.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_request_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/request_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_multiapp_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/multiapp_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/menu_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/menu/main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable_ic_launcher_background.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_workwithfile_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/workwithfile_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/drawable_side_nav_bar.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_content_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/content_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/navigation_mobile_navigation.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/layout_activity_main.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-debug-61:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "ru.azizovav.mireaproject.app-main-63:/mipmap-anydpi/ic_launcher.xml"
+    }
+]

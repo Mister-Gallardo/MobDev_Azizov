@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/fragment_slideshow.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/fragment_home.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/map_main.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/map_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/fragment_data.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_data.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/app_bar_main.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/fragment_background_activity.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_background_activity.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/workwithfile_main.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/workwithfile_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/nav_header_main.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/login_main.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/login_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/activity_main.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/fragment_web_view.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_web_view.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/content_main.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/content_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/profile_main.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/profile_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/multiapp_main.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/multiapp_main.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/fragment_gallery.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "ru.azizovav.mireaproject.app-mergeDebugResources-60:/layout/request_main.xml",
+        "source": "ru.azizovav.mireaproject.app-main-63:/layout/request_main.xml"
+    }
+]
